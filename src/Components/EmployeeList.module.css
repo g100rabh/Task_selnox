@@ -1,0 +1,84 @@
+.listCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 655px;
+  top: 205px;
+  left: 115px;
+  border-radius: 30px;
+  border: 1px;
+
+  box-shadow: 0 5px 25px 2px rgba(161, 208, 240, 0.6);
+  margin: 2rem;
+}
+
+.listCon Table {
+  margin: 5rem;
+}
+
+.tableCon th {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #263857;
+}
+
+.tableCon td {
+  color: #7e98ba;
+}
+
+.threeDot:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: relative;
+  left: -3;
+  background-color: #ffffff;
+  color: #7d7d7d;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 5rem;
+  height: 6rem;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdownMenu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdownMenu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f4f4f4;
+  cursor: pointer;
+}
+
+.dropdownMenu li:hover {
+  background-color: #e5e5e5;
+}
+
+.dropdown span {
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .listCon {
+    width: 600px;
+  }
+}

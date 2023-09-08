@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,3 +39,65 @@
     transform: rotate(360deg);
   }
 }
+
+.text-editor {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.toolbar button {
+  margin-right: 5px;
+}
+
+.editor-content {
+  border: 1px solid #ccc;
+  min-height: 150px;
+  padding: 5px;
+}
+
+.color-picker-label {
+  position: relative;
+}
+
+.color-picker-text {
+  font-size: 18px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: -18px;
+  border: 1px solid #ccc;
+}
+
+.toolbar button {
+  margin-right: 5px;
+}
+/* 
+.color-button {
+  position: relative;
+  font-size: 16px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  right: -18px;
+  border: 1px solid #ccc;
+}
+
+.toolbar button {
+  margin-right: 5px;
+} */
+
+
+
